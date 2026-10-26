@@ -3,9 +3,22 @@ Version=1.0
 Type=Application
 Name=Linak Desk Server
 Comment=Launch Linak Desk Control Server
-Exec=/home/ellie/src/compilersEllie/linak-controller --server --forever
+Exec=linak-controller --server --forever
 Icon=/home/ellie/src/compilersEllie/linak.jpg
 Categories=Utility;
 Terminal=false
 MimeType=text/na;
 StartupNotify=true
+Actions=Sit;Stand;Top;
+
+[Desktop Action Sit]
+Name=Linak Desk Sit
+Exec=linak-controller --forward --move-to sit
+
+[Desktop Action Top]
+Name=Linak Desk Top
+Exec=linak-controller --forward --move-to top
+
+[Desktop Action Stand]
+Name=Linak Desk Stand
+Exec=linak-controller --forward --move-to stand
