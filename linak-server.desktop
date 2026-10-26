@@ -1,7 +1,11 @@
 [Desktop Entry]
-Name=Linak Desk Server
-Exec=/home/ellie/src/compilersEllie/linak-controller --server --forever
-Comment=Launch Linak Desk Controller Server
-Icon=/home/ellie/src/compilersEllie/linak.jpg
+Version=1.0
 Type=Application
+Name=Linak Desk Server
+Comment=Launch Linak Desk Control Server
+Exec=/home/ellie/src/compilersEllie/linak-controller --server --forever
+Icon=/home/ellie/src/compilersEllie/linak.jpg
+Categories=Utility;
 Terminal=false
+MimeType=text/na;
+StartupNotify=true

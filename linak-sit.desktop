@@ -1,7 +1,11 @@
 [Desktop Entry]
-Name=Linak Desk Sit
-Exec=/home/ellie/src/compilersEllie/linak-controller --forward --move-to sit
-Comment=Set Linak Desk to sit
-Icon=/home/ellie/src/compilersEllie/linak.jpg
+Version=1.0
 Type=Application
+Name=Linak Desk Sit
+Comment=Set Linak Desk to sit
+Exec=/home/ellie/src/compilersEllie/linak-controller --forward --move-to sit
+Icon=/home/ellie/src/compilersEllie/linak.jpg
+Categories=Utility;
 Terminal=false
+MimeType=text/na;
+StartupNotify=false
