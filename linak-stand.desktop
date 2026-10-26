@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Linak Desk Stand
-Exec=linak-controller --forward --move-to stand
+Exec=/home/ellie/src/compilersEllie/linak-controller --forward --move-to stand
 Comment=Set Linak Desk to stand
-Icon=linak.jpg
+Icon=/home/ellie/src/compilersEllie/linak.jpg
 Type=Application
 Terminal=false

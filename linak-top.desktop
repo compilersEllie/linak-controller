@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Linak Desk Top
-Exec=linak-controller --forward --move-to top
+Exec=/home/ellie/src/compilersEllie/linak-controller --forward --move-to top
 Comment=Set Linak Desk to top
-Icon=linak.jpg
+Icon=/home/ellie/src/compilersEllie/linak.jpg
 Type=Application
 Terminal=false
