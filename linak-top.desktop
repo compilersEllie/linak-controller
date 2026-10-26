@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Linak Desk Top
+Exec=linak-controller --forward --move-to top
+Comment=Set Linak Desk to top
+Icon=linak.jpg
+Type=Application
+Terminal=false
