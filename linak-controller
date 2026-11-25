@@ -1,4 +1,13 @@
 #!/bin/bash
 script_dir="/home/ellie/src/compilersEllie/linak-controller"
 cd $script_dir
-poetry run linak-controller -- "$@"
+install() {
+  pyenv install 3.12
+  pyenv local 3.12
+  poetry env use "$(pyenv which python)"
+  poetry install
+  echo "Asking for root to install"
+  sudo desktop-file-install *.desktop
+}
+
+poetry run linak-controller -- "$@" || install
