@@ -8,6 +8,7 @@ install() {
   poetry install
   echo "Asking for root to install"
   sudo desktop-file-install *.desktop
+  sudo cp linak-controller /usr/bin/
 }
 
 poetry run linak-controller -- "$@" || install
